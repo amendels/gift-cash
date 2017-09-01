@@ -21,3 +21,15 @@ h1 {
   background: none;
   border: none;
 }
+.navbar-brand {
+  font-family:milkshake;
+  font-size:42px;
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+  background-color: none;
+}
+.navbar-inverse .navbar-nav>.active> {
+  color: #ffffff;
+  background-color: none;
+}
