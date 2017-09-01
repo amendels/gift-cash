@@ -1,10 +1,22 @@
-.top {
-  background-image: url('../assets/background.png') no-repeat center center fixed;
+.banner {
+  background-image: url('../assets/background.png');
+  background-size:cover;
+  position: relative;
+  height: 100%;
 }
 h1 {
   font-size: 100px;
+  font-weight:bold;
 }
-
+.top {
+  text-align: center;
+  padding: 20%;
+  color: #ffffff;
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: 1px
+}
 
 
 html {
